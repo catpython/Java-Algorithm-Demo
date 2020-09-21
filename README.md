@@ -25,4 +25,31 @@ The toString() method should return a String representing the nodes as a list in
 
 8)	Assume that you need a collection that has a ratio of inserts to searches of 1:100. Use Big O Notation to determine whether a linked list or a binary tree would be the best solution under average circumstances. Show your work (i.e. do the math).
 
+----------------------------------------------------------------------------------------------------
+
+Answers 1,2,3,4:
+/*
+ * insert() and toString() , Big O notation for Linked List script is O(N), 
+ * The average Time Complexity of Linked List is O(N)
+ * 
+ * 
+ * 
+*/
+
+
+
+Answers 5,6,7  and 8:
+/*
+ * insert() and toString() , Big O notation for BTree script is O(logN), 
+ * Like Binary Search, the average Time Complexity of Binary Tree is O(LogN)
+ * 
+ * 
+ * 
+ * For a collection that has a ratio of inserts to searches of 1:100, N = 100
+ * comparing linked list with Binary tree, the ratio is as following
+ * 100 : Log2(100) 
+ * Of course the Binary tree is more efficient, log2(100)= lg100/lg2 = 2/0.3010 = 6.64
+ */
+
+
 
